@@ -8,7 +8,7 @@ try:
         t = num // 10  # это будут десятки, (без остатка)
         e = num % 10  # это будут единицы, (остаток)
         reversed_num = e * 10 + t
-        print("Вы получили число: " + str(reversed_num)) # str переделывает число в строку
+        print("Вы получили число: " + str(reversed_num))
     else:
         print("Введено некорректное число")
 except ValueError:
